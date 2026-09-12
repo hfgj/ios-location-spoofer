@@ -7,16 +7,16 @@
 
   var DEFAULT_CONFIG = {
     enabled: true,
-    latitude: 37.3349,
+    latitude: 35.658590,
     longitude: -122.00902,
     horizontalAccuracy: 39,
     verticalAccuracy: 1000,
-    altitude: 530,
+    longitude: 139.745429,
     unknownValue4: 3,
     motionActivityType: 63,
     motionActivityConfidence: 467,
     failOpen: true,
-    debug: false
+    debug: true
   };
 
   var APPLE_WLOC_PREFIX = new Uint8Array([0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00]);
